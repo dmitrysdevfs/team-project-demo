@@ -1,6 +1,13 @@
 <section class="hero section">
   <div class="container">
     <h1 class="hero__title">Ice cream made with passion</h1>
+    <picture class="hero__images">
+      <source srcset="./images/hero/hero-img-mob.webp 1x, ./images/hero/hero-img-mob@2x.webp 2x"
+        media="(max-width:479px)" type="image/webp" />
+      <source srcset="./images/hero/hero-img-mob.png 1x, ./images/hero/hero-img-mob@2x.png 2x" media="(max-width:479px)"
+        type="image/png" />
+      <img class="hero__img" src="./images/hero/hero-img-mob.png" alt="Photo Icecream" />
+    </picture>
     <a href="" class="hero__products-link link">Products</a>
     <a href="" class="hero__how-made-link link">How it’s made?</a>
 

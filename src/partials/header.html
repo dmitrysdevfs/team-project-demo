@@ -1,10 +1,13 @@
 <section class="header section">
     <div class="container">
         <a href="/index.html" class="logo link">
-            <svg class="logo__icon" width="200" height="90">
-                <use href="../images/logo-ice-cream.svg"></use>
-            </svg>
-            <span class="logo__text">Icecream</span>
+            <div class="logo__wrapper">
+                <picture class="logo__images">
+                    <source srcset="./images/logo/logo.webp 1x, ./images/logo/logo@2x.webp 2x" type="image/webp" />
+                    <source srcset="./images/logo/logo.png 1x, ./images/logo/logo@2x.png 2x" type="image/png" />
+                    <img class="logo__img" src="./images/logo/logo.png" alt="Company logo" />
+                </picture>
+            </div>
         </a>
         <nav class="nav">
             <ul class="nav__list list">
